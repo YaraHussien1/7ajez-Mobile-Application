@@ -36,80 +36,23 @@
    
 ## Sequence Diagram (Send CheckPoint Status)
 
-    
+![HAJEZ_Sequence_Update](https://user-images.githubusercontent.com/43942189/60547454-60cfe200-9d28-11e9-8de3-99f33a80eaa3.png)
+
+# Details
+
+ ## 1- The user clicks on Report Button
+ ## 2- A list of options is shown to the user
+ ## 3- The user chooses the type of the checkpoint status
+ ## 3- The database is updated and all the near users are notified with the update.
    
 
 # Implementation Details
-  We developed our service using the RESTful service development paradigm, which is based on the HTTP protocol that is an RPC- based       sychronous communication protocol.
+ The Design Of The Application 
 
-# Composite Service Algorithm According To BPMN 2.0
- ## FastHotel Composite
+
+ ## Main Activiy 
  
-     '''java @RestController
-	    @RequestMapping("/composite")
-	    public class FastHotelController
-	 {
-		
-	ArrayList<Customer> customers = new ArrayList<Customer>();	
-	//To Get The Closest Hotel Path To The customer
-	@ApiOperation(value = "Get Customer by Location", response = Customer.class)
-	@RequestMapping(method = RequestMethod.GET, value = "/Customer-direction")
-	public String getDirectioForHotel(@RequestParam(value = "id", defaultValue ="0") int id,
-			@RequestParam(value = "name", defaultValue = "yara") String name,
-			@RequestParam(value = "location", defaultValue ="31.922428,35.208054") String location) 
-	{
-		Customer c = new Customer(id, name, location);
-		// get the nearBy Hotel "The closest one
-		//System.out.println("GETDierc Method returns : " +getDirection(c));
-		return getDirection(c);
-	}
-
-	// Get Customer By Name
-	@RequestMapping(method = RequestMethod.GET, value = "/customer")
-	String findCustomerByName(@RequestParam(value = "name", defaultValue = "Yara") String name)
-	{
-
-		for (Customer i : customers)
-		{
-			if (i.getCustomerName().equals(name))
-				return name + " exists";
-		}
-		return name + " does not exist!";
-	}
-	
-	// Add A New Customer
-	@RequestMapping(value = "/customer", method = RequestMethod.POST)
-	HttpEntity<Customer> addCustomer(@RequestBody Customer u)
-	{	System.out.println("POST METHOD IS Called");
-
-		for (Customer i : customers)
-		{
-			if (u.getCustomerID() == i.getCustomerID())
-				throw new UserAlreadyExistsException();
-		}	
-		customers.add(u);	
-		return new ResponseEntity<>(u, HttpStatus.OK);
-	}
-
-	@ExceptionMapping(errorCode = "user.already_exists", statusCode = HttpStatus.BAD_REQUEST)
-	public class UserAlreadyExistsException extends RuntimeException 
-	{	
-	}
-	// Get nearby hotels ad get the location of the closest one to the customers location
-	public static String getDirection (Customer c)
-	{
-		ArrayList<Hotel> hotels;
-		int i =100;
-		do
-		{
-			hotels = Places.getNearByHotel(c.getLocation(), i);
-			i+=100;
-		}while (hotels.size()<=0);
-		//System.out.println("GETDirection method returns this : "+Maps.Direction(c.getLocation(), hotels.get(0).getName()));
-			return Maps.Direction(c.getLocation(), hotels.get(0).getLocation());
-	}
-	}'''
- 
+    
  
  
   ## Applied Technologies
