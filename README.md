@@ -2,14 +2,13 @@
  ## Motivation
    * Although Palestine exists on Google maps, the main problem uncovered is the checkpoints that we face in our every day lives. These checkpoints are not provided on the map and their status is needed for the Palestinian community on a daily basis. The idea of our project will solve a big issue for the Palestinian community as it is needed to know about the best path to be taken for not wasting any time whilst traveling from city to the other. The motivation behind our project is in complete synchronization with the theme that is to organize the checkpoints’ information and make it accessible and useful for the user. Traffic on the roads is also another problem to undertake in our project as it affects the availability of the roads and makes a big issue for the people as to which path is the most available for anyone to take in order to avoid any hazards.
 
- * Why use service computing?
-    - Less cost.
-    - Availability.
-    - Better maintenance.
-    - Reusability.
+ * Why use Android ?
+    - Android is an open source OS anyone can use it and develop it. 
+    - Android is a Component based architecture, which means a part can be used in other parts of another operating system. It also provides a mash up, which is combining two or more services to create an application.
+    - Android programs got many layers of security.
+    - Android takes low power, less memory devices.
+   
   
- * Why use composition?
-      - We use composition because provides services for new software applications or Api´s.
   
  * Why these third parties?
     - Easy to use.
