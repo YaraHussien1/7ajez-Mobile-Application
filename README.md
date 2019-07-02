@@ -1,7 +1,6 @@
 # 7ajez-Mobile-Application
  ## Motivation
-   * The problem domain is the transportation of customers to the closest (nearby ) hotel.
-      The specific SOA solution was to make the customer able to find the closest hotel to his location. It also orders a taxi to give         him a ride to the hotel, and it takes care of the payment process with all its details.
+   * Although Palestine exists on Google maps, the main problem uncovered is the checkpoints that we face in our every day lives. These checkpoints are not provided on the map and their status is needed for the Palestinian community on a daily basis. The idea of our project will solve a big issue for the Palestinian community as it is needed to know about the best path to be taken for not wasting any time whilst traveling from city to the other. The motivation behind our project is in complete synchronization with the theme that is to organize the checkpoints’ information and make it accessible and useful for the user. Traffic on the roads is also another problem to undertake in our project as it affects the availability of the roads and makes a big issue for the people as to which path is the most available for anyone to take in order to avoid any hazards.
 
  * Why use service computing?
     - Less cost.
