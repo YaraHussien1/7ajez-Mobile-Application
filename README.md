@@ -19,8 +19,7 @@
 # System Analysis
 
   ## SOA Diagram
-
-   ![websoa _diagram 2](https://user-images.githubusercontent.com/37571215/50399502-9b106380-0788-11e9-9b06-b0f369fb2bea.png)
+![HAJEZ_SOA_Diagram (1)](https://user-images.githubusercontent.com/43942189/60539868-61f81380-9d16-11e9-8d3b-d5ae088fb88c.png)
    
 # Details
 
