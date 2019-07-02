@@ -37,47 +37,42 @@
 ## Sequence Diagram (Send CheckPoint Status)
 
 ![HAJEZ_Sequence_Update](https://user-images.githubusercontent.com/43942189/60547454-60cfe200-9d28-11e9-8de3-99f33a80eaa3.png)
-
 # Details
 
- ### 1- The user clicks on Report Button
- ### 2- A list of options is shown to the user
- ### 3- The user chooses the type of the checkpoint status
- ### 3- The database is updated and all the near users are notified with the update.
-   
+   1- The user clicks on Report Button
+   2- A list of options is shown to the user
+   3- The user chooses the type of the checkpoint status
+   3- The database is updated and all the near users are notified with the update.
+   ##
+
 
 # Implementation Details
- The Design Of The Application 
+ ## The Design Of The Application 
 
 
- ## Main Activiy 
- 
+  ### Main Activiy 
  ![main](https://user-images.githubusercontent.com/43942189/60547764-303c7800-9d29-11e9-9615-e120dd94282a.png)
 
- ## Second Activity 
- 
+  ### Second Activity 
  ![second](https://user-images.githubusercontent.com/43942189/60547845-67128e00-9d29-11e9-8d82-0af9901ae8b4.png)
  
- ## Report Page
- 
+  ### Report Page
  ![report](https://user-images.githubusercontent.com/43942189/60547964-ab9e2980-9d29-11e9-8c31-f5d1d6b9e657.png)
 
- 
-  ## Applied Technologies
-  
+ ## Applied Technologies
   ![report](https://user-images.githubusercontent.com/43942189/60548263-57e01000-9d2a-11e9-978c-964e989a294b.png)
   ### Details 
-  * Development Environment : STS , Eclipse.
+      * Development Environment : STS , Eclipse.
   
-  * Programming Languages : (JDK) java development kit 8.
+      * Programming Languages : (JDK) java development kit 8.
   
-  * Frameworks and libraries : Android Studio.
+      * Frameworks and libraries : Android Studio.
   
-  * Data Base : Firebase.
+      * Data Base : Firebase.
   
-  * Google Maps API. 
+      * Google Maps API. 
   
-  * Directions API.
+      * Directions API.
  
    
   # Conclusion and Discussion
