@@ -65,7 +65,8 @@
  
   ## Applied Technologies
   
-  
+  ![report](https://user-images.githubusercontent.com/43942189/60548263-57e01000-9d2a-11e9-978c-964e989a294b.png)
+
   
   ### Details 
   * Development Environment : STS , Eclipse.
@@ -80,19 +81,15 @@
   
   * Directions API.
  
-  
-  
-  ## Servise Deployment And Monitering
-  
-  * ##   Log File
-  
-    *  [   **Our Log File**  ](Team11LogFile.csv)
    
   # Conclusion and Discussion
-  - The main idea of our API is to give the customer the closest hotel location, direction and to order a taxi to drive him to the           destination.
+   - The main idea of our APP is to provide the users with the open roads in general.
    - One of the problems was the lack of time, if we had more time we would produce a better work for sure.
-   - some technical difficulties came across too, like trying to connect to the local host which eventually became successful, and             deploying the project to Google app engine made a lot of unexpected errors, which took a lot of time from us to try to solve them.
-   - If we had more time I’m sure we will manage to launch a well structured and very helpful API.
+   - some technical difficulties came across too:
+    * GPS is extremely complex for beginners. it also needs to be more accurate in the West- Bank which affected the functionality of         our app.
+    * Hajez application needs to have access to the Internet / WIFI in order for it to function at all.
+
+ 
    
 
    
