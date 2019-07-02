@@ -56,6 +56,10 @@
 
  ## Second Activity 
  
+ ![second](https://user-images.githubusercontent.com/43942189/60547845-67128e00-9d29-11e9-8d82-0af9901ae8b4.png)
+ 
+ ## Report Page
+ 
  
   ## Applied Technologies
   
