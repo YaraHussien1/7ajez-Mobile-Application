@@ -32,41 +32,10 @@
   
   ## Deployment Diagram
 
-   ![fffff](https://user-images.githubusercontent.com/44376115/50550208-2d76a280-0c74-11e9-8981-f5ac940d2a96.png)
+![HAJEZ_DeploymentDiagram](https://user-images.githubusercontent.com/43942189/60547287-f028c580-9d27-11e9-9204-6b985d1b8ff4.png)
    
- ## Details
- ### Start : 
-   * A customer needs to find a close hotel.
-   
-     - FastHotel API does the following :
-     
-      1- Gets the customer's current location from the DataBase.
-        
-      2- Send the customer's current location to the Taxi service.
-         
-      3- Parallel Search " FastHotel API and Taxi service"  : 
-         
-       #### A- FastHotel searches for hotels that are close to the customer's current location.
-          
-        - Uses Places API and searches by raduis.
-               
-        - Uses Google Maps API to calculate the shortest hotel path " The closest hotel to the customer location" .
-        - Loop :
-                -  If the result of searching by the raduis was null "no hotels within this raduis" , then increase the raduis and                           search again until you find at least one hotel.
-              
-       #### B- Taxi Service Searches for the path "Direction" to the customer in order to pick Him/Her up.
-       
-        - Uses Google Maps API.
-              
-      4- FastHotel Sends the directions of the hotel to the Taxi service.
-        
-      5- The Taxi picks up the customer and gives Him/Her a drive to the hotel.
-        
-      6- The customer makes a payment request, FastHotel sends the customer information to PayPal Api.
-        
-      7- PayPal API makes all the payment functions.
-        
- ### End
+## Sequence Diagram (Send CheckPoint Status)
+
     
    
 
