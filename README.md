@@ -41,9 +41,12 @@
 
   ## Details
 
-   1- The user clicks on Report Button
-   2- A list of options is shown to the user
-   3- The user chooses the type of the checkpoint status
+   1- The user clicks on Report Button.
+   
+   2- A list of options is shown to the user.
+   
+   3- The user chooses the type of the checkpoint status.
+   
    3- The database is updated and all the near users are notified with the update.
   
 
