@@ -60,18 +60,27 @@
  
  ## Report Page
  
+ ![report](https://user-images.githubusercontent.com/43942189/60547964-ab9e2980-9d29-11e9-8c31-f5d1d6b9e657.png)
+
  
   ## Applied Technologies
   
+  
+  
+  ### Details 
   * Development Environment : STS , Eclipse.
   
   * Programming Languages : (JDK) java development kit 8.
   
-  * Frameworks and libraries : swagger 2.0 , Spring Boot.
+  * Frameworks and libraries : Android Studio.
   
-  * Deployment platforms : Google App Engine (GAE), which is a Google Cloud Platform(GCP) service provided by Google.
+  * Data Base : Firebase.
   
-  * Application Server : Apache Tomcat ( Localhost 8080 ).
+  * Google Maps API. 
+  
+  * Directions API.
+ 
+  
   
   ## Servise Deployment And Monitering
   
