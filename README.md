@@ -52,7 +52,9 @@
 
  ## Main Activiy 
  
-    
+ ![main](https://user-images.githubusercontent.com/43942189/60547764-303c7800-9d29-11e9-9615-e120dd94282a.png)
+
+ ## Second Activity 
  
  
   ## Applied Technologies
