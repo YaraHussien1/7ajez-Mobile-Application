@@ -23,42 +23,13 @@
    
 # Details
 
- ## 3_Tire Client Server Architecture :
-  * Client :
-    - Advanced REST Client.
+ ## 3_Main Functions The user can do :
     
-  * Services :
-    - Direction (Hotel / Customer).
-    - place (Customer).
-    - Payment.
+  * Search for destination.
+  * Find the path to the destination.
+  * View the barrier status.
+  * Update the barrier status.
   
- 
- ## Services : 
-  * Composite : 
-    - FastHotel Controller.
-  * Atomic : 
-    - Customer Controller.
-    - Hotel Controller.
-    - Taxi Controller.
-    - PayPal Controller.
-  * Third Party : 
-    - Geolocation Map
-    
- ## Users can use FastHotel API functionalities provided by Web services API in the following order:
- 
-   1-  User sends a request(with his current location ) to FastHotel API.
-   
-   2-  FastHotel API gets the current location of the cusomer and finds the path (Direction) to the customer.
-   
-   4-  FastHotel API finds the closest hotel path (direction) to the customer using Google Places and Maps,                                      and sends the (customer location , hotel path) to a taxi.
-   
-   5-  The taxi picks up the customer, give him a drive to the hotel.
-   
-   6-  FastHotel API takes care of the financial work using PayPal.
-   
-
-
-
   ## BPMN 2.0 Diagram
 
    ![fffff](https://user-images.githubusercontent.com/44376115/50550208-2d76a280-0c74-11e9-8981-f5ac940d2a96.png)
